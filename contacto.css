@@ -1,0 +1,74 @@
+body {
+    background-color: #f8f9faf5;
+    position: relative;
+}
+
+div h1 {
+    text-align: left;
+    color: rgb(0, 0, 0);
+    font-size: 35px; 
+    font-family: sans-serif;
+position: relative;
+left: 135px;
+bottom: -10px;}
+    
+
+
+.texto-1 { text-align: center;
+    font-size: 20px;
+    color: rgb(252, 17, 9);}
+    
+    
+.productos {
+    text-align: center;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    color: #FAA613;
+   font-size: 50px;
+    font-weight: bold;
+    background-color: #929496;}
+
+ *{
+    
+   margin: 0;
+   padding: 0;
+   font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;}
+   
+.barra-de-navegacion ul  {list-style-type: none;
+display: flex;
+justify-content: space-between;
+height: 70px;
+background-color: #929496;
+position: relative;
+align-items: center;
+font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+padding: 5px;
+margin-right: 60px;}
+
+.footer { position: absolute;
+    right: 0px;}
+
+.logo img   
+{height: 170px;
+    position: absolute;
+    top: 40px;
+    height: 90px;
+    left: 30px;}
+
+.banner img {height: 300px;
+width: 100%;}
+
+a{
+    text-decoration: none;
+    color: black;
+    font-weight: bolder;
+    padding-right: 5px;} 
+
+nav a:hover {
+    color:white}
+
+
+
+.instagramlogo img 
+{height: 300px;
+    width: 50%;
+    display: block;}
