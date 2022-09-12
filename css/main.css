@@ -1,0 +1,103 @@
+/* $font-family-subtitles: 
+$font-family-parrafos: 
+$font-family-productos: */
+.fondo {
+  background-color: #FCF7FF; }
+
+header {
+  /* Barra de Navegacion */
+  /* links */ }
+  header #barra-de-navegacion ul {
+    list-style-type: none;
+    display: flex;
+    justify-content: space-around;
+    height: 70px;
+    background-color: #C4CAD0;
+    left: -10%;
+    align-items: center;
+    font-family: "Roboto", sans-serif;
+    padding: 4px;
+    border: 1px solid #020202;
+    width: 100%;
+    margin-left: 60px;
+    margin-right: 60px; }
+  header .Titulo-Pagina {
+    font-family: "Roboto", sans-serif;
+    font-family: "Franklin Gothic Medium", sans-serif;
+    color: #040404;
+    display: flex;
+    justify-content: center;
+    position: static;
+    font-weight: bold;
+    text-decoration: dashed; }
+  header .links {
+    margin-left: 20%;
+    margin-right: 20%;
+    margin-top: 1%; }
+  header .parent a {
+    text-decoration: none; }
+  header .parent {
+    display: grid;
+    grid-template-columns: repeat(5, 1fr);
+    grid-template-rows: 1fr;
+    grid-column-gap: 0px;
+    grid-row-gap: 0px;
+    text-align: center;
+    margin: auto;
+    text-decoration: none; }
+
+body {
+  background: #C4CAD0; }
+
+.cards {
+  display: flex;
+  justify-content: center;
+  margin: 2%;
+  flex-wrap: wrap; }
+
+.logo{
+  display: flex;
+  justify-content: center;
+  height: 100px;
+  padding: 1%;
+}
+.card-1 {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  text-align: center;
+  width: 300px;
+  height: 300px;
+  border-style: solid;
+  border-width: 2px;
+  padding: 1%;
+  margin: 2%;
+  border-radius: 20px;
+  background-color: white; }
+
+.card-1 img {
+  margin: auto;
+  width: 50%; }
+
+* {
+  font-family: "Roboto", sans-serif;
+  margin: 0;
+  padding: 0; }
+
+
+.navbar {
+background-color: #CCCCCC;
+overflow: hidden;
+margin: auto;
+width: 700px;
+	}
+	/* Style the links inside the navigation bar */
+.navbar a {
+float: left;
+color: black;
+text-align: center;
+padding: 14px 16px;
+text-decoration: none;
+font-size: 20px;
+}
+
