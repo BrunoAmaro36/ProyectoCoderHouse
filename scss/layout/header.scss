@@ -1,19 +1,6 @@
+@import "../../css/main.css";
 header{ 
                                                                     /* Barra de Navegacion */
-    #barra-de-navegacion ul {list-style-type: none;
-    display: flex;
-    justify-content: space-around;
-    height: 70px;
-    background-color: $secondary-color;
-    left: -10%;
-    align-items: center;
-    font-family: $font-family-primary;
-    padding: 4px;
-    border: 1px solid rgb(2, 2, 2);
-    width: 100%;
-    margin-left:60px;
-    margin-right:60px;}
-
     .logo{
         display: flex;
         justify-content: center;
@@ -23,7 +10,7 @@ header{
     
     .Titulo-Pagina { font-family: $font-family-primary;
         font-family: $font-family-h1;
-        color: $title-color;
+        color: red;
         display: flex;
         justify-content: center;
         position: static;

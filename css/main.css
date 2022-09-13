@@ -1,12 +1,14 @@
 /* $font-family-subtitles: 
 $font-family-parrafos: 
 $font-family-productos: */
+@import "../scss/app.scss";
 .fondo {
   background-color: #FCF7FF; }
 
 header {
+  background-color: #FCF7FF; }
   /* Barra de Navegacion */
-  /* links */ }
+  /* links */ 
   header #barra-de-navegacion ul {
     list-style-type: none;
     display: flex;
@@ -24,7 +26,7 @@ header {
   header .Titulo-Pagina {
     font-family: "Roboto", sans-serif;
     font-family: "Franklin Gothic Medium", sans-serif;
-    color: #040404;
+    color: black;
     display: flex;
     justify-content: center;
     position: static;
