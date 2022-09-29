@@ -8,16 +8,17 @@ color: $active-color;
 margin-bottom: 5%;}
 }
 
-.fotosingresos img { position: relative;
-left: 600px;}
-
 .productos {
 text-align: center;
 font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
-color: #FAA613;
+color: $title-color;
 font-size: 50px;
 font-weight: bold;
-background-color: #929496;
+background-color: white;
+overflow: hidden;
+margin: auto;
+
+
 }
 
 
@@ -32,12 +33,11 @@ font-weight: bolder;
 background-color: #ffffff;
 overflow: hidden;
 margin: auto;
-width: 700px;
 border-top-style:solid;
 border-bottom-style:solid;
 padding-right: 10%;
 padding-left: 4%;
-
+width: 35%;
 }
         /* Style the links inside the navigation bar */
 .navbar a {
@@ -48,14 +48,40 @@ padding: 14px 16px;
 text-decoration: none;
 font-size: 20px;
 }
-
-    
-    
+ 
 .banner img 
-{height: 300px;
+{height: 30%;
 width: 100%;
 display: block;
-margin-top: 5%;}   
+margin-top: 5%;
+}   
 
+.cards {
+display: flex;
+justify-content: center;
+margin: 2%;
+flex-wrap: wrap; 
+
+}
+
+.card-1 {
+display: flex;
+flex-direction: column;
+justify-content: center;
+text-align: center;
+width: 300px;
+height: 300px;
+border-style: solid;
+border-width: 2px;
+padding: 1%;
+margin: 2%;
+border-radius: 20px;
+background-color: white;
+
+ }
+      
+.card-1 img {
+ margin: auto;
+ width: 50%; }
 
 

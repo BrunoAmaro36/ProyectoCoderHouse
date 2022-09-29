@@ -31,7 +31,7 @@ header {
     text-decoration: none; }
 
 #footer {
-  margin-top: 5%;
+  margin-top: 0%;
   display: grid;
   grid-template-columns: 100%;
   grid-template-rows: 250px;
@@ -47,17 +47,15 @@ body {
     color: #878C8F;
     margin-bottom: 5%; }
 
-.fotosingresos img {
-  position: relative;
-  left: 600px; }
-
 .productos {
   text-align: center;
   font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
-  color: #FAA613;
+  color: #040404;
   font-size: 50px;
   font-weight: bold;
-  background-color: #929496; }
+  background-color: white;
+  overflow: hidden;
+  margin: auto; }
 
 a {
   text-decoration: none;
@@ -68,11 +66,11 @@ a {
   background-color: #ffffff;
   overflow: hidden;
   margin: auto;
-  width: 700px;
   border-top-style: solid;
   border-bottom-style: solid;
   padding-right: 10%;
-  padding-left: 4%; }
+  padding-left: 4%;
+  width: 35%; }
 
 /* Style the links inside the navigation bar */
 .navbar a {
@@ -84,7 +82,7 @@ a {
   font-size: 20px; }
 
 .banner img {
-  height: 300px;
+  height: 30%;
   width: 100%;
   display: block;
   margin-top: 5%; }
@@ -112,3 +110,71 @@ a {
 .card-1 img {
   margin: auto;
   width: 50%; }
+
+h3 {
+  text-align: center;
+  font-size: 30px;
+  margin: 0;
+  padding-top: 10px; }
+
+.product-list {
+  display: flex;
+  flex-wrap: wrap;
+  width: 100%;
+  justify-content: center;
+  align-items: center;
+  margin: 25px 0; }
+
+.product-content {
+  width: 20%;
+  margin: 10px;
+  box-sizing: border-box;
+  float: left;
+  text-align: center;
+  border-radius: 20px;
+  cursor: pointer;
+  padding-top: 10px;
+  box-shadow: 0 14px 28px rgba(0, 0, 0, 0.25), 0 10px 10px rgba(0, 0, 0, 0.22);
+  transition: .4s;
+  background-color: white; }
+
+.product-content:hover {
+  box-shadow: 0 3px 6px rgba(0, 0, 0, 0.16), 0 3px 6px rgba(0, 0, 0, 0.23);
+  transform: translate(0, -8px); }
+
+.product-content img {
+  width: 200px;
+  height: 200px;
+  text-align: center;
+  margin: 0 auto;
+  display: block; }
+
+.product-content h3 {
+  font-size: 26px;
+  text-align: center;
+  color: #131515;
+  margin: 0; }
+
+.product-content h2 {
+  font-size: 130%;
+  text-align: center;
+  color: #131515;
+  margin: 0; }
+
+button {
+  text-align: center;
+  font-size: 130%;
+  font-family: "Roboto", sans-serif;
+  color: black;
+  font-weight: bold;
+  width: 100%;
+  padding: 15px;
+  border: 0;
+  outline: none;
+  cursor: pointer;
+  margin-top: 5px;
+  border-bottom-left-radius: 20px;
+  border-bottom-right-radius: 20px; }
+
+.product-content .buy {
+  background-color: #769FB6; }
