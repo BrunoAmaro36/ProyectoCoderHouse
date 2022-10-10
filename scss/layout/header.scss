@@ -24,3 +24,24 @@ header{
     }
 }
 
+.marquee{
+    width: 100%;
+    background-color: $secondary-color;
+    text-transform: uppercase;
+    white-space: nowrap;
+    overflow: hidden;
+}
+
+.marquee div{
+    font-family: $font-family-primary;
+    animation: animate 7s linear infinite;
+    padding-left: 100%;
+    display: inline-block;
+}
+
+@keyframes animate {
+    100%{
+    transform: translate(-100%-0);
+}
+}
+
