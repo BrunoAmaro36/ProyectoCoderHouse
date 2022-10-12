@@ -17,9 +17,11 @@ font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
 color: $title-color;
 font-size: 50px;
 font-weight: bold;
-background-color: white;
+background-color:#FCF7FF;
 overflow: hidden;
 margin: auto;
+width: 65%;
+border-radius: 55px 55px 55px 55px;
 
 
 }
@@ -80,11 +82,89 @@ padding: 1%;
 margin: 2%;
 border-radius: 20px;
 background-color: white;
+margin-bottom: 15%;
 
  }
       
 .card-1 img {
  margin: auto;
- width: 50%; }
+ width: 60%;
+ }
 
+/* Carousel styles */
+.carousel{
+padding-left:15%;
+padding-right:15%;    
+}
 
+ .carousel-inner{
+border-radius: 55px 55px 55px 55px;
+overflow: hidden;
+ }
+
+.carousel-control-prev,
+.carousel-control-next{
+      margin-right: 10%;
+      margin-left: 10%;
+}
+ 
+
+ /* Nosotros - Page 4 */
+
+.quienes-somos { 
+        padding-left: 15%;
+        font-size: 150%;
+        margin-bottom: 30%;
+        text-align: center;
+}
+
+.texto-nosotros { 
+        padding-left: 12%;
+        padding-right: 30%;
+        text-align: center;
+        font-family: Verdana, Geneva, Tahoma, sans-serif;
+        font-style: oblique;
+}
+
+.voltagge-busca{
+        padding-left: 12%;
+        padding-right: 30%;
+        text-align: center;
+        font-family: Verdana, Geneva, Tahoma, sans-serif;
+        font-style: oblique;
+        padding-top: 2%;
+
+}
+
+.list-inline { 
+        text-align: center;
+        font-family: Verdana, Geneva, Tahoma, sans-serif;
+        font-style: oblique;
+        position: relative;
+        bottom:500px ;
+        text-transform:initial;
+        letter-spacing: 1px;
+}
+.registro {
+text-align: center;
+font-family: Verdana, Geneva, Tahoma, sans-serif;
+font-style: oblique;
+padding-top: 3%;
+}
+
+.submit-button {position: relative;
+       
+          
+        background: transparent;
+        border: none;
+        color: white;   
+        font-size:130%;
+        margin-left: 2%;
+        position: relative;
+        bottom: 90px;
+        
+      
+        
+}
+
+  

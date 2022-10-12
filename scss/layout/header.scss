@@ -4,11 +4,11 @@ header{
     .logo{
         display: flex;
         justify-content: center;
-        height: 100px;
+        height:140px;
         padding: 1%;
     }
     
-    .Titulo-Pagina { font-family: $font-family-primary;
+    .Titulo-Pagina {  
         font-family: $font-family-h1;
         color: $title-color #040404;
         display: flex;
@@ -17,6 +17,7 @@ header{
         font-weight: bold;
         text-decoration: dashed;
         padding-bottom: 1%;
+        
     }
 
     .parent a {text-decoration: none
@@ -34,9 +35,10 @@ header{
 
 .marquee div{
     font-family: $font-family-primary;
-    animation: animate 7s linear infinite;
+    animation: animate 4s linear infinite;
     padding-left: 100%;
     display: inline-block;
+    
 }
 
 @keyframes animate {
